@@ -1,35 +1,47 @@
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0; padding: 0; font-size: 20px;
+        }
+       
+        p {
+            width: 400px;
+            text-align: justify;
+            line-height: 1;
+            background-color: #f6f6f6;
+            margin: 20px 80px 100px 40px;
+            border: solid salmon;
+            border-width: 10px 30px 50px 15px;
+            padding: 35px 50px 20px 0;
+            border-top-color: black;
+            border-right-color: red;
+            border-bottom-color: black;
+            border-left-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
  
-    body { margin: 0; padding: 0; font-size: 20px; }
-     
-    p { width: 400px;
-     
-    text-align: justify;
-     
-    line-height: 1;
-     
-    background: #f6f6f6;
-     
-    margin: 20px 80px 100px 40px;
-     
-    border: solid #ccc;
-     
-    border-width: 10px 30px 50px 15px;
-     
-    40 px
-     
-    }
-     
-    padding: 35px 50px 20px 0;
-     
-    </style>
-     
-    </head>
-     
-    <body>
-     
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloremque hic et esse dignissimos nobis tempora explicabo distinctio quia, natus labore ipsum laborum fuga ducimus iste at qui? Incidunt, ipsum?</p>
-     
-    </body>
-     
-    </html>
+        p:hover {
+            transform: scale(1.08);
+            text-decoration: none;
+            display: inline-block;
+            transition: .2s;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.534);
+        }
+        a, a:hover {
+            color: black;
+            text-decoration:none;
+        }
+        </style>
+</head>
+<body>
+   <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero nostrum quaerat quod repellat ut quasi sapiente fugiat expedita inventore, nesciunt eveniet voluptate obcaecati, quam sed quae tenetur dolore? Expedita!</p></a>
+</body>
+</html>
